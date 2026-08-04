@@ -10,6 +10,7 @@ pacman -Syu --noconfirm \
     kvantum       \
     lxqt-qtplugin \
     qtcreator     \
+    qt6-wayland   \
     qt6ct
 
 echo "Installing debloated packages..."
