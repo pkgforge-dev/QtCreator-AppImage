@@ -8,7 +8,6 @@ echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
     kvantum       \
-    libxcb        \
     lxqt-qtplugin \
     qtcreator     \
     qt6-wayland   \
