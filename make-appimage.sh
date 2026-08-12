@@ -13,7 +13,7 @@ export DESKTOP=/usr/share/applications/org.qt-project.qtcreator.desktop
 export DEPLOY_QT=1
 
 # Deploy dependencies
-quick-sharun /usr/bin/qtcreator /usr/lib/qtcreator /usr/share/qtcreator
+quick-sharun /usr/bin/qtcreator /usr/lib/qtcreator /usr/share/qtcreator /usr/lib/libQt6TaskTree.so* /usr/include/qt6/QtTaskTree
 
 # Additional changes can be done in between here
 
