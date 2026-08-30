@@ -10,7 +10,7 @@ export ADD_HOOKS="self-updater.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
 export ICON=/usr/share/icons/hicolor/256x256/apps/QtProject-qtcreator.png
 export DESKTOP=/usr/share/applications/org.qt-project.qtcreator.desktop
-export DEPLOY_QT=1
+export USE_HOST_DRIVERS_EXPERIMENTAL=1
 
 # Deploy dependencies
 quick-sharun /usr/bin/qtcreator /usr/lib/qtcreator /usr/share/qtcreator /usr/lib/libQt6TaskTree.so* /usr/include/qt6/QtTaskTree
